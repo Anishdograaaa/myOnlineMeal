@@ -1,0 +1,131 @@
+/* Navigation Bar */
+#navbar{
+    flex-direction: column;
+}
+ul li a{
+    font-size: 13px;
+    padding: 3px 4px;
+}
+ul li{
+padding: 3px 19px;
+}
+.logo img{
+    height: auto;
+    width: 49px;
+}
+
+
+
+/* Home Section */
+
+#home{
+    height: 34px;
+    margin: 172px 12px;
+    padding: 12px 21px;
+}
+
+#home::before{
+    height: 519px;
+}
+#home p{
+    font-size: 15px;
+}
+#home h1{
+    font-size: 30px;
+}
+.btn{
+    font-size: 23px;
+}
+
+/* Service Section */
+#services{
+flex-direction: column;
+}
+#services-container{
+    padding: 17px 3px;
+}
+#services-container h1{
+    font-size: 2.7rem;
+}
+ .box{
+    padding: 72px 8px;
+    margin: 10px 4px;
+    width: 224px;
+}
+
+.box img{
+        width: 136px;
+        padding: 5px;
+    
+}
+.box p{
+    font-size: 18px;
+}
+
+/* Client Section */
+
+#services-item{
+    flex-wrap: wrap;
+}
+#services-client{
+    height: 331px;
+    margin: 0px;
+
+}
+#services-client::before{
+    height: 331px;
+}
+#services-item img {
+    width: 86px;
+    height: 72px;
+    margin-bottom: 2px;
+    padding: 27px;
+}
+
+
+/* Contact Section */
+
+#contact::before{
+    height: 634px;
+}
+#contact{
+    height: 634px;
+}
+#contact h1{
+    margin: 0px;
+    margin-bottom: -65px;
+}
+#contact-box label {
+    font-size: 1.5rem;
+}
+#contact-box input {
+    width: 63%;
+    padding: 6px;
+    margin: 13px 8px;
+}
+    #contact-box textarea {
+        padding: 6px;
+        margin: 13px 8px;
+        width: 63%;
+    }
+
+/* Utility Classes */
+
+.h-secondary{
+    font-size: 1.5rem;
+}
+
+.h-primary {
+    
+    font-size: 2.7rem;
+    
+}
+
+
+
+
+
+
+
+
+

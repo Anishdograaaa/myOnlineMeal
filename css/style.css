@@ -1,0 +1,246 @@
+/* Reset */
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+ /* Navigation Bar */
+ #navbar{
+     display: flex;
+     align-items: center;
+     position: relative;
+     font-family: 'Baloo Tammudu 2', cursive;
+ }
+ #navbar::before{
+    background-color: black;
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+ /* Navigation:Logo */
+.logo{
+    margin: -21px 23px;
+}
+.logo img{
+    height: 138px;
+    margin: 4px 17px;
+}
+
+ /* Navigation:Items */
+ ul{
+     display: flex;
+ }
+ ul li {
+     padding: 23px 23px;
+     list-style: none;
+ }
+ ul li a{
+     text-decoration: none;
+     color: white;
+     font-size: 23px;
+     padding: 10px 24px;
+     display: block;
+     border-radius: 20px;
+ }
+
+ul li a:hover{
+    background-color: white;
+    color: black;
+    /* font-family: 'Baloo Tammudu 2', cursive; */
+}
+
+/* Home section */
+
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 34px;
+    margin: 140px 12px;
+    font-family: 'Karla', sans-serif;
+    
+}
+#home::before{
+    background: url(../bg1.jpg) no-repeat center center/cover;
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 675px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89;
+}
+
+#home h1{
+    font-size: 3.6rem;
+    color: white;
+    text-align: center;
+    margin: 3px 4px;
+}
+#home p{
+    font-size: 1.5rem;
+    color: white;
+}
+.btn{
+    padding: 4px 14px;
+    margin: 22px 3px;
+    font-size: 1.7rem;
+    border: 2px white solid;
+    background-color: #a91616;
+    border-radius: 26px;
+    cursor: pointer;
+    font-family: 'Karla', sans-serif;
+}
+
+/* Service section */
+
+#services-container{
+    padding: 2px 3px;
+    margin: 3px 2px;
+
+}
+#services-container h1{
+   text-align: center;
+   font-size: 3.8rem;
+    margin: 23px 3px;
+    font-weight: bolder;
+}
+#services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    display: flex;
+    border: 2px red solid;
+    height: 426px;
+    width: 427px;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px 57px;
+    margin: 5px 16px;
+    border-radius:38px;
+    background-color: #f1ebe0;
+    margin-bottom: -44px;
+}
+.box img{
+    width: 200px;
+    padding: 15px;
+}
+
+/* Client section */
+
+#services-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#services-client {
+margin: 100px;
+}
+#services-client::before {
+content: "";
+height: 416px;
+width: 100%;
+position: absolute;
+left: 0px;
+opacity: 0.5;
+background: url('../bg.jpg') no-repeat center center/cover;
+z-index: -3;
+}
+.services img{
+    height: 151px;
+    align-items: center;
+    justify-content: center;
+    padding: 34px 71px;
+}
+
+/* Contact Services */
+
+#contact{
+margin: 0px;
+height:778.593px;
+}
+#contact h1{
+    margin-bottom: -57px;
+}
+
+#contact::before {
+    background: url(../contact.jpg) no-repeat center center/cover;
+    content: "";
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.7;
+    height: 778.583px;
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin:106px 0px;
+
+}
+#contact-box input{
+    width: 34%;
+    padding: 10px;
+    margin: 11px 8px;
+    border-radius: 8px;
+    font-family: 'Karla', sans-serif;
+}
+#contact-box textarea{
+    padding: 10px;
+    margin: 11px 8px;
+    border-radius: 8px;
+    width: 34%;
+    margin-bottom: 28px;
+}
+#contact-box label{
+    font-size: 1.8rem;
+    font-family: 'Karla', sans-serif;
+    text-align: right;
+}
+
+::placeholder{
+    font-size: 1.2rem;
+}
+
+
+
+
+/* Utility Class */
+.h-primary{
+    padding: 12px 12px;
+    font-family: 'Karla', sans-serif;
+    text-align: center;
+    font-size: 3.6rem;
+    font-weight: bold;
+}
+.h-secondary{
+    font-size: 2.3rem;
+    padding: 20px;
+    font-family: 'Karla', sans-serif;
+    
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 7px 3px;
+    position: relative;
+    bottom: 0px;
+}
